@@ -9,8 +9,7 @@
     "build:zz": "pnpm --filter zz build && pnpm --filter zz preview",
     "build:zlj": "pnpm --filter zlj build && pnpm --filter zlj preview",
     "cz": "git add . && git cz",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
+    "changeset": "pnpm changeset && changeset version",
     "pub": "pnpm changeset publish --tag beta"
   },
   "keywords": [],

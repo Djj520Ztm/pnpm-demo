@@ -9,6 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "utils": "workspace:*"
+    "@zz-yp/test-utils": "workspace:*"
   }
 }
