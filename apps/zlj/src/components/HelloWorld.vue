@@ -1,5 +1,5 @@
 <script setup>
-import { hello } from "utils";
+import { hello } from "@zz-yp/test-utils";
 import { ref } from 'vue'
 
 defineProps({
